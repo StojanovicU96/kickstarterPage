@@ -1,0 +1,449 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Commissioner', sans-serif;
+}
+
+html{
+  height: 100%;
+}
+
+.container{
+  position: relative;
+}
+
+.title-description-card{
+    margin-bottom: 30px;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+}
+
+ .navbar-toggler.collapsed .close-icon {
+     display: none;
+}
+
+.fas{
+  color: white;
+  outline: none;
+}
+
+.btn{
+  background-color:  hsl(176, 50%, 47%) !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: bolder !important;
+  height: 55px;
+  border-radius: 100px !important;
+  width: 200px;
+}
+
+.btn:hover{
+  background-color: hsl(176, 72%, 28%) !important;
+}
+
+.about-item{
+  margin-bottom: 40px;
+}
+
+.enter-pledge {
+    text-align: center;
+    margin-bottom: 30px !important;
+}
+
+.money-pledge{
+  width: 120px !important;
+  border:1px solid #ced4da !important;
+  border-radius: 100px !important;
+  box-shadow: none !important;
+  height: 55px !important;
+  font-weight: bolder !important;
+  outline: none ;
+}
+
+.modal-description-card{
+  padding-left: 28px !important;
+}
+
+.remain{
+  padding-left: 30px !important;
+}
+
+.pledge-pop-up{
+  display: none;
+  border-top: 1px solid #ced4da;
+
+}
+
+.bar{
+  background: hsl(176, 50%, 47%) !important;
+  height: 20px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 473) {
+  .bookmark-icon{
+    margin-top: 30px;
+  }
+  form{
+    position: relative;
+    top: 25% ;
+    left: 30% ;
+  }
+  .money-pledge-input{
+    width: 36px !important;
+    border: none;
+    box-shadow: none !important;
+    font-weight: bolder !important;
+    outline: none !important;
+  }
+  .continue-btn{
+    width: 20px !important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  body{
+    background-color: rgb(220,220,220) !important;
+    background-image: url("images/image-hero-mobile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .navbar-collapse{
+    background: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 20px;
+  }
+  .nav-link{
+    color: black;
+    font-weight: bold;
+  }
+  .discover{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  .mastercraft-icon{
+    position: relative;
+    bottom: 45px;
+  }
+  .project-title-section{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    padding: 20px;
+  }
+  .title-card{
+    font-weight: bolder;
+    margin-bottom: 20px !important;
+  }
+  .description-card{
+    color: hsl(0, 0%, 48%);
+    padding: 0 !important;
+    margin-top: 20px !important;
+  }
+  .bookmark-icon{
+    margin-left: 20px;
+
+  }
+  .bookmark-icon:active{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+  .backers-info-section{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 40px;
+  }
+  .backers-info-nums{
+    font-weight: bolder;
+    margin-bottom: 10px !important;
+  }
+  .backers-info-description{
+    color: hsl(0, 0%, 48%);
+  }
+  .border-col{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ced4da !important;
+    border-bottom: 1px solid #ced4da !important;
+    padding-top: 30px !important;
+  }
+  .progressBar{
+    background: rgb(220,220,220) !important;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .about-section{
+    background-color: white !important;
+    border-radius: 20px !important;
+    padding: 40px 30px;
+  }
+
+  .type-card{
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .pledge-info{
+    color: hsl(176, 50%, 47%) !important;
+    font-weight: bolder;
+  }
+  small{
+    font-size: 40% !important;
+    color: hsl(0, 0%, 48%) !important;
+  }
+  .grey-card{
+    opacity: 0.6;
+  }
+  .pledge-section{
+    display: none;
+    position: absolute !important;
+    margin-top: 150px !important;
+    z-index: 9;
+  }
+  .select-perk-section{
+    margin-left: 30px !important;
+  }
+  .form-check-input{
+    width: 20px;
+    height: 20px;
+    position: relative !important;
+    top: 30px !important;
+    right: 10px !important;
+  }
+  form{
+    position: relative;
+    top: 25% ;
+    left: 30% ;
+  }
+  .money-pledge-input{
+    width: 50px;
+    border: none;
+    box-shadow: none !important;
+    font-weight: bolder !important;
+    outline: none !important;
+  }
+  .thanks-message-section{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    padding: 20px;
+  }
+  .modal-open {
+    overflow: scroll;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body{
+    background-color: rgb(220,220,220) !important;
+    background-image: url("images/image-hero-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .proba{
+    margin: 0 50px !important;
+  }
+  .pledge{
+    margin: 0 100px 0 100px !important;
+  }
+  .navbar-collapse{
+    background: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 20px;
+  }
+  .nav-link{
+    color: black;
+    font-weight: bold;
+  }
+  .discover{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  .mastercraft-icon{
+    position: relative;
+    bottom: 45px;
+  }
+  .project-title-section{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  .title-card{
+    font-weight: bolder;
+    margin-bottom: 20px !important;
+  }
+  .description-card{
+    color: hsl(0, 0%, 48%);
+    padding: 0 !important;
+  }
+  .bookmark-icon{
+    margin-left: 280px;
+  }
+  .bookmark-icon:active{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+  .backers-info-section{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 40px;
+  }
+  .backers-info-nums{
+    font-weight: bolder;
+  }
+  .backers-info-description{
+    color: hsl(0, 0%, 48%);
+  }
+  .border-col {
+    padding-top: 0 !important;
+    border-left: 1px solid #ced4da !important;
+    border-right: 1px solid #ced4da !important;
+  }
+  .progressBar{
+    background: rgb(220,220,220) !important;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .about-section{
+    background-color: white !important;
+    border-radius: 20px !important;
+    padding: 40px 30px;
+  }
+  .type-card{
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .pledge-info{
+    color: hsl(176, 50%, 47%) !important;
+    font-weight: bolder;
+  }
+  small{
+    font-size: 40% !important;
+    color: hsl(0, 0%, 48%) !important;
+  }
+  .grey-card{
+    opacity: 0.6;
+  }
+  .pledge-section{
+    display: none;
+    position: absolute !important;
+    margin-top: 150px !important;
+    z-index: 9;
+  }
+  .pledge-pop-up{
+    display: none;
+    padding-left: 30px;
+    border-top: 1px solid #ced4da;
+    padding-top: 30px;
+  }
+  .select-perk-section{
+    margin-left: 30px !important;
+  }
+
+  .form-check-input{
+    width: 20px;
+    height: 20px;
+    position: relative !important;
+    top: 30px !important;
+    right: 10px !important;
+  }
+  form{
+    position: relative;
+    top: 25% ;
+    left: 30% ;
+  }
+  .money-pledge-input{
+    width: 50px;
+    border: none;
+    box-shadow: none !important;
+    font-weight: bolder !important;
+    outline: none !important;
+  }
+  .thanks-message-section{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 200px 50px 0 50px !important;
+    padding: 20px;
+  }
+  .modal-open {
+    overflow: scroll;
+  }
+}
+
+
+@media only screen and (min-width: 990px) {
+  .navbar-collapse {
+      background: none;
+      margin-top: 20px;
+  }
+  .nav-link{
+    color: white;
+  }
+  .discover{
+    border: none;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+  .proba{
+    margin: 0 300px !important;
+  }
+  .pledge{
+    margin: 0 300px 0 300px !important;
+  }
+  .thanks-message-section{
+    margin: 200px 300px 0 300px !important;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .proba{
+    margin: 0 400px !important;
+  }
+  .pledge{
+    margin: 0 400px 0 400px !important;
+  }
+  .thanks-message-section{
+    margin: 200px 400px 0 400px !important;
+  }
+}
+
+ @media only screen and (min-width: 1800px) {
+  .proba{
+    margin: 0 500px !important;
+  }
+  .pledge{
+    margin: 0 500px 0 500px !important;
+  }
+  .thanks-message-section{
+    margin: 200px 500px 0 500px !important;
+  }
+}

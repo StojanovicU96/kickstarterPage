@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="kickstarter.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/796ce6486c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">crowdfund</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link discover" href="#">Discover <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Get Started <span class="sr-only">(current)</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row proba">
+        <div class="col-12">
+          <div class="project-title-section">
+            <div class="mastercraft-icon">
+              <img src="images/logo-mastercraft.svg" alt="">
+            </div>
+            <h2 class="title-card">Mastercraft Bamboo Monitor Riser</h2>
+            <p class="title-description-card">A beautifully  handcrafted  monitor stand to reduce neck and eye strain</p>
+            <div class="back-project-section">
+              <button type="button" class="btn btn-secondary backProjectBtn" data-toggle="modal" data-target="#exampleModal">Back this project</button>
+              <img src="images/icon-bookmark.svg" class="bookmark-icon" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="backers-info-section">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <h1 class="backers-info-nums">$<span id="money-sum">89,914</span></h1>
+                <p class="backers-info-description">of $100,00 backed</p>
+              </div>
+              <div class="col-12 col-md-4 border-col px-0">
+                <h1 class="backers-info-nums"><span id="total-backers">5,007</span></h1>
+                <p class="backers-info-description saBorderom">Total backers</p>
+              </div>
+              <div class="col-12 col-md-4">
+                <h1 class="backers-info-nums">56</h1>
+                <p class="backers-info-description">Days left</p>
+              </div>
+              <div class="progressBar">
+                <div class="bar">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="about-section">
+            <h2 class="title-card about-item">About this project</h2>
+            <p class="about-description-card about-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+            <p class="about-description-card about-item">Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                anim id est laborum</p>
+            <div class="bamboo-stand">
+              <div class="row type-card mx-0">
+                <div class="col-12 col-md-auto mr-md-auto">
+                  <h4 class="title-card">Bamboo stand</h4>
+                </div>
+                <div class="col-12 col-md-auto">
+                  <p class="pledge-info">Pledge $<span class="pledge-num">25</span> or more</p>
+                </div>
+                <div class="col-12">
+                  <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+                </div>
+                <div class="col-sm-12 col-md-auto mr-md-auto">
+                  <h1 class="title-card"><span class="bamboo-item-left">101</span> <small>left</small></h1>
+                </div>
+                <div class="col-12 col-md-auto">
+                  <button type="button" class="btn btn-secondary select-reward-button" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Select reward</button>
+                </div>
+              </div>
+            </div>
+            <div class="black-stand">
+              <div class="row type-card my-5 mx-0">
+                <div class="col-12 col-md-auto mr-md-auto">
+                  <h4 class="title-card">Black Edition Stand</h4>
+                </div>
+                <div class="col-12 col-md-auto">
+                  <p class="pledge-info">Pledge $<span class="pledge-num">75</span> or more</p>
+                </div>
+                <div class="col-12">
+                  <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+                </div>
+                <div class="col-sm-12 col-md-auto mr-md-auto">
+                  <h1 class="title-card"><span class="black-item-left">2</span> <small>left</small></h1>
+                </div>
+                <div class="col-12 col-md-auto">
+                  <button type="button" class="btn btn-secondary select-reward-button" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Select reward</button>
+                </div>
+              </div>
+            </div>
+            <div class="row type-card grey-card mx-0">
+              <div class="col-12 col-md-auto mr-md-auto">
+                <h4 class="title-card">Mahogany Special Edition</h4>
+              </div>
+              <div class="col-12 col-md-auto">
+                <p class="pledge-info">Pledge $200 or more</p>
+              </div>
+              <div class="col-12">
+                <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+              </div>
+              <div class="col-sm-12 col-md-auto mr-md-auto">
+                <h1 class="title-card"><span>0</span> <small>left</small></h1>
+              </div>
+              <div class="col-12 col-md-auto">
+                <button type="button" class="btn btn-secondary select-reward-button" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Select reward</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="col-12">
+          <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 pledge-section" >
+                  <div class="about-section pledge">
+                    <h2 class="title-card">Back this project</h2>
+                    <p class="description-card">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+                    <div class="type-card pledge-type-card my-5">
+                      <div class="select-perk-section">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <h4 class="title-card">Pledge with no reward</h4>
+                      </div>
+                      <p class="modal-description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+                      <div class="pledge-pop-up">
+                        <button type="button" class="btn btn-secondary continue-btn" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Continue</button>
+                      </div>
+                    </div>
+                    <div class="type-card pledge-type-card">
+                      <div class="m bamboo-stand">
+                        <div class="select-perk-section">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                          <h4 class="title-card">Bamboo stand</h4>
+                          <p class="pledge-info">Pledge $<span class="pledge-num">25</span> or more</p>
+                        </div>
+                        <p class="modal-description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+                        <h1 class="remain title-card"><span class="bamboo-item-left">101</span> <small>left</small></h1>
+                        <div class="pledge-pop-up">
+                          <div class="row">
+                            <div class="col-12 col-md-auto mr-auto">
+                              <p class="description-card enter-pledge">Enter your pledge</p>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                              <div class="row">
+                                <div class="col-auto mr-auto">
+                                  <div class="money-pledge">
+                                    <form class="" action="index.html" method="post">
+                                      <label for="">$</label>
+                                      <input type="text" name="" value="" class="money-pledge-input" placeholder="">
+                                    </form>
+                                  </div>
+                                </div>
+                                <div class="col-auto">
+                                  <button type="button" class="btn btn-secondary continue-btn" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Continue</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="alert alert-danger" role="alert">
+                          Pledge must be <strong>$25 or more!</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="type-card pledge-type-card my-5">
+                      <div class="m black-stand">
+                        <div class="select-perk-section">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                          <h4 class="title-card">Black Edition Stand</h4>
+                          <p class="pledge-info">Pledge $<span class="pledge-num">75</span> or more</p>
+                        </div>
+                        <p class="modal-description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+                        <h1 class="remain title-card"><span class="black-item-left">2</span> <small>left</small></h1>
+                        <div class="pledge-pop-up">
+                          <div class="row">
+                            <div class="col-12 col-md-auto mr-auto">
+                              <p class="description-card enter-pledge">Enter your pledge</p>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                              <div class="row">
+                                <div class="col-auto mr-auto">
+                                  <div class="money-pledge">
+                                    <form class="" action="index.html" method="post">
+                                      <label for="">$</label>
+                                      <input type="text" name="" value="" class="money-pledge-input" placeholder="">
+                                    </form>
+                                  </div>
+                                </div>
+                                <div class="col-auto">
+                                  <button type="button" class="btn btn-secondary continue-btn" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Continue</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="alert alert-danger" role="alert">
+                          Pledge must be <strong>$75 or more!</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="type-card pledge-type-card grey-card">
+                      <div class="select-perk-section">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <h4 class="title-card">Mahogany Special Edition</h4>
+                        <p class="pledge-info">Pledge $200 or more</p>
+                      </div>
+                      <p class="modal-description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+                      <h1 class="remain title-card"><span>0</span> <small>left</small></h1>
+                      <div class="pledge-pop-up">
+                        <div class="row">
+                          <div class="col-12 col-md-auto mr-auto">
+                            <p class="description-card enter-pledge">Enter your pledge</p>
+                          </div>
+                          <div class="col-12 col-md-auto">
+                            <div class="row">
+                              <div class="col-auto mr-auto">
+                                <div class="money-pledge">
+                                  <form class="" action="index.html" method="post">
+                                    <label for="">$</label>
+                                    <input type="text" name="" value="" class="money-pledge-input" placeholder="">
+                                  </form>
+                                </div>
+                              </div>
+                              <div class="col-auto">
+                                <button type="button" class="btn btn-secondary continue-btn" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Continue</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="modal" id="thanksModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <div class="thanks-message-section">
+                    <div class="mastercraft-icon">
+                      <img src="images/icon-check.svg" alt="">
+                    </div>
+                    <h4 class="title-card">Thank you for your support!</h4>
+                    <p class="description-card">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+                    <button type="button" class="btn btn-secondary backProjectBtn" data-target="#exampleModal" data-dismiss="modal">Got it!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    <script type="text/javascript" src="kickstarter.js">
+    </script>
+  </body>
+</html>
